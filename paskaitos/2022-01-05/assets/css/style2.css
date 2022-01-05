@@ -1,0 +1,35 @@
+/* css - cascading */
+.stylesheets {
+  background-color: rgb(173, 35, 35);
+}
+.background {
+  background-color: blueviolet;
+}
+.formbackground {
+  background-color: burlywood;
+}
+
+#bg {
+  background-color: greenyellow;
+}
+.img {
+  border: 50px solid;
+  width: 100px;
+}
+
+.nuotrauka{
+    width: 33%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+.pirma {
+    background-image: url("./img/9.jpeg");
+}
+.antra {
+    background-image: url("./img/download\ \(1\).jpeg");
+}
+.trecia {
+    background-image: url("./img/download\ \(2\).jpeg");
+}

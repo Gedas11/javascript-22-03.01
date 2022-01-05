@@ -1,0 +1,20 @@
+/* css - cascading */
+.stylesheets {
+
+    background-color: rgb(173, 35, 35);
+} 
+.background {
+    background-color: blueviolet;
+}
+.formbackground {
+    background-color: burlywood;
+}
+
+
+#bg {
+    background-color: greenyellow;
+}
+.img{
+    border:10px solid;
+    width: 150px;
+}
