@@ -1,0 +1,15 @@
+.textleft{
+    text-align: left;
+    
+}
+.centerp{
+   
+    text-align: center;
+}
+.textright{
+    text-align: right;
+    margin-left: 30%;
+}
+.textjustify{
+    text-align: justify;
+}

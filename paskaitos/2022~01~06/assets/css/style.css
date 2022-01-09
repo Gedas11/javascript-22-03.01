@@ -1,0 +1,45 @@
+
+ 
+.hmtl, body{
+   
+    
+    background-image: url(img/foto.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-family: fantasy;
+    
+}
+   
+   
+   
+
+
+form {
+    background-color: rgb(91, 109, 112);
+    opacity: 0.6;
+    color: #faf5f5;
+    margin-left: 50%;
+    margin-right: 10%;
+    
+ }
+form input, form button {
+    display: block;
+    margin-bottom: 30px;
+    color: rgb(247, 243, 243);
+}
+form input[type="checkbox"]{
+    color: rgb(255, 250, 250);
+
+display: inline;
+    
+}
+.haa1{
+    color: rgb(250, 245, 248);
+    
+
+}
+.p1{
+    color: rgb(45, 61, 207);
+    margin-left: 10%;
+    margin-right: 10%;
+}

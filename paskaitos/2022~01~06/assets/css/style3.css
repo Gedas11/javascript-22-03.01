@@ -1,0 +1,33 @@
+.content{
+ /* column-count:5; */
+ height: 100%;
+ position: center;
+ padding-right: 5px;
+ /*display: inline-block;*/
+ width: 100%;
+ /* float: left; */
+background-color: bisque;
+color: rgb(28, 28, 71);
+}
+
+ form{
+     /* border: 1px solid blue; */
+     padding:20px 0;
+    margin-left: 50%;
+ }
+form input, form button {
+    display: block;
+    margin-bottom: 5px;
+}
+form input[type="checkbox"]{
+
+display: inline;
+
+}
+body, html {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    overflow: hidden;
+
+}
