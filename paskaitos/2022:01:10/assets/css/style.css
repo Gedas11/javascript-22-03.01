@@ -1,0 +1,90 @@
+header{
+    background-color: black;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+body {
+    margin: 0px;
+    background: aquamarine
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+
+
+}
+ul,li{
+    color: blue;
+    background-color: rgb(136, 128, 128);
+    padding: 5px;
+}
+ul li {
+    display: inline;
+    
+}
+
+.demo1{
+    background-color: cadetblue;
+    height: 50vh;
+    box-sizing: border-box;
+}
+.demo2{
+    background-color: chocolate;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.demo3{
+    background-color: rgb(68, 43, 25);
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+.demo4{
+    background-color: rgb(109, 138, 42);
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+.demo5{
+    background-color: rgb(57, 162, 180);
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+.demo6{
+    background-color: rgb(240, 106, 10);
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+.demo7{
+    background-color: rgb(131, 34, 39);
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+.demo8{
+    background-color: rgb(161, 106, 67);
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+p{
+    text-align: center;
+    color: thistle;
+}
+h2{
+    text-align: center;
+    color: darkgreen;
+}
+img{
+    width: 250px;
+    height: 250px;
+    float: left;
+
+}
