@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+}
+
+
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header nav {
+  background-color: rgb(101, 156, 156);
+  position: fixed;
+  width: 100%;
+}
+header nav li {
+  display: inline-block;
+  border-right: 1px solid #ccc;
+}
+header nav li a {
+  display: block;
+  padding: 8px 20px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+header nav li a:hover {
+  background: rgb(126, 252, 88);
+  color: rgb(88, 54, 54);
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+section.seksija1 ol {
+  background-color: wheat;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: violet;
+  height: 100vh;
+  font-size: medium;
+  
+  padding: 40px;
+  padding-left: 300px;
+}
+
+section.seksija2 ul {
+  background-color: rgb(114, 101, 76);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(59, 33, 131);
+  height: 100vh;
+  font-size: 20px;
+  text-align: center;
+}
+section.seksija3 ul {
+  background-color: rgb(34, 27, 15);
+  font-family: monospace;
+  font-size: medium;
+  color: rgb(59, 33, 131);
+  height: 100vh;
+  font-size: 20px;
+  
+}
+section.seksija4 {
+  background-color: rgb(34, 27, 15);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(59, 33, 131);
+  height: 100vh;
+  font-size: 20px;
+ 
+}
+section.seksija5 {
+  background-color: rgb(168, 45, 24);
+  font-family: fantasy;
+  
+  color: rgb(59, 33, 131);
+  height: 100vh;
+  
+  
+
+  
+  
+}
+img {
+  float: right;
+  width: 250px;
+  height: 250px;
+}
+form {
+  background-color: tomato;
+  height: 100vh;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+form input,
+button {
+    background-color: burlywood;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline;
+  font-family: fantasy;
+
+}
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
