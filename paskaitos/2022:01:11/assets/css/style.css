@@ -76,7 +76,7 @@ section.sekcija2 li {
 }
 section.sekcija3 {
   background: cornsilk;
-  background-image: url(../img/background\ 4.jpg);
+  background-image: url(img/download\ \(5\).jpeg);
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: 50px 480px;
@@ -186,3 +186,77 @@ section.sekcija5 h1 {
   margin: 0px 15px 5px 100px;
 }
 
+body{
+  background-color: antiquewhite;
+}
+.sekcija1{
+  width:240px;
+  margin:20px auto 20px 20px;
+}
+#sarasas1{
+  list-style-type:upper-roman;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 90%;
+  color:rgb(51, 51, 221);
+}
+.sekcija2{
+  width:240px;
+  margin: 20px auto;
+}
+#sarasas2{
+  list-style-type:square;
+  font-family: 'Luxurious Roman', cursive;
+  letter-spacing: 3px;
+  font-size: 85%;
+  color:rgb(26, 94, 26);
+}
+.sekcija3{
+  width:240px;
+  margin: 20px 20px 20px auto;
+}
+#sarasas3{
+  list-style-type: circle;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 110%;
+  color:rgb(81, 5, 114);
+
+}
+form{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.radio{
+  text-align: left;
+  padding-left: 10px;
+}
+.forma{
+  text-align: center;
+}
+div{
+  width:240px;
+  margin: 5px auto;
+}
+button{
+  background-color: forestgreen;
+  color:white;
+  letter-spacing: 2px;
+  border:none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+label{
+  letter-spacing: 2px;
+}
+.straipsnis{
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  text-align: center;
+}
+img{
+  float:left;
+  width:400px;
+  padding-right: 20px;
+  
+}
