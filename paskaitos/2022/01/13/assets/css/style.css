@@ -23,7 +23,7 @@ section.services h1 {
 
 div.columns .column {
     width: 33.3%;
-    float: left;
+    float: inline-end;
     padding: 0 15px;
     box-sizing: border-box;
     color: #FFFFFF;
