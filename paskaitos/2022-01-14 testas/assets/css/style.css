@@ -1,6 +1,12 @@
 body {
   font-family: "Open Sans", Sans-serif;
-  margin: 0;
+  margin:0;
+}
+div.container{
+     text-align: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
 }
 div.columns {
   display: inline-block;
@@ -24,9 +30,11 @@ h4 {
   color: tomato;
   font-size: large;
 }
+
 img {
   width: 50px;
   height: 150px;
+  padding-bottom: 20px;
 }
 div.columns .column2 {
   background-color: rgb(59, 73, 197);
