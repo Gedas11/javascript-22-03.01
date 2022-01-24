@@ -560,7 +560,7 @@ body {
         background-color: #d5d5d5;
         width: 2px;
         height: 100%;
-        position: relative;
+        position: absolute;
         left: 50%;
         top: 100px;  
     }
