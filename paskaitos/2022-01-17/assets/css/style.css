@@ -83,6 +83,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
 }
 
 #header .logo {
@@ -92,6 +93,7 @@ body {
 
 #header .navigation {
   float: right;
+  
 }
 
 #header .navigation > ul {
@@ -160,7 +162,7 @@ body {
   font-weight: 500;
   font-size: 16px;
 }
-
+/* ABOUT PRADZIA */
 #about {
   padding-top: 80px;
   padding-bottom: 120px;
@@ -248,7 +250,48 @@ body {
   font-size: 16px;
   line-height: 28px;
 }
+/* ABOUT PABAIGA */
+/* RESPONSIVE */
+#responsive {
+  background-color: #bbbbba;
+  position: relative;
+  display: block;
+}
+#responsive .all {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: inline-flex;
+}
+#responsive .right {
+  margin-left: 5%;
+  font-family: sans-serif;
+  color: #444;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+}
+#responsive .right h2 {
+  border-bottom: 2px solid #b4b4b4;
+  font-size: x-large;
+  line-height: 28px;
+  transition: all 250ms ease-in-out;
+  padding-bottom: 15px;
+}
+#responsive .right a {
+  text-decoration: none;
+  color: rgb(92, 91, 91);
+}
+#responsive .right h2 a:hover {
+  
+  color: #e0ac00;
+}
+#responsive .right .fas {
+  color: #ffc400;
+}
 
+/* RESPONSIVE PABAIGA */
+
+/* services seksija */
 #services {
   padding-top: 80px;
   padding-bottom: 120px;
@@ -310,6 +353,7 @@ body {
 #services .fab {
   color: #343434;
 }
+/* services seksija pabaiga */
 .container {
   width: 100%;
   max-width: 1170px;
@@ -318,7 +362,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+/* FEATTURES PRADZIA */
 #features {
   background-image: url(https://dsathemes.com/html/xlander/pattern/img/parallax_bg/features.jpg);
   /* padding-bottom: 600px; */
@@ -396,7 +440,9 @@ body {
   vertical-align: top;
   margin-top: 17px;
 }
+/* FUTURES PABAIGA */
 
+/* FACTS PRADZIA */
 #facts {
   background-image: url(https://dsathemes.com/html/xlander/pattern/img/parallax_bg/statistic-banner.jpg);
   padding-top: 80px;
@@ -447,7 +493,9 @@ body {
   color: #fff;
   text-align: center;
 }
+/* FACTS PABAIGA */
 
+/* WORKS PRADZIA */
 .container {
   width: 100%;
   max-width: 1170px;
@@ -487,124 +535,298 @@ body {
 #works .work-img {
   padding-left: 5%;
 }
-#works .img1 {
-  float: left;
-  display: inline;
-  box-sizing: border-box;
+#works .img {
+  width: 250px;
+  height: 250px;
 }
-#works .img2 {
-  float: left;
-  display: inline;
-  box-sizing: border-box;
-}
-#works .img3 {
-  float: left;
-  display: inline;
-  box-sizing: border-box;
-}
-#works .img4 {
-  float: left;
-  display: inline;
-  box-sizing: border-box;
-}
-#works .img5 {
-  float: left;
-  display: inline;
-  box-sizing: border-box;
-}
-#works .img6 {
-  float: left;
-  display: inline;
-  box-sizing: border-box;
-}
-#works .img7 {
-  float: left;
-  display: inline;
-  box-sizing: border-box;
-}
-#works .img8 {
-  float: left;
-  display: inline;
-  box-sizing: border-box;
-}
- /* HISTORY SEKSIJA */
+/* WORKS PABAIGA */
+
+/* HISTORY SEKSIJA */
 .container {
-    width: 100%;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-   
-  }
-#history {
-    padding-top: 100px;
- 
-    
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
 }
-#history .history-heading{
+#history {
+  padding-top: 100px;
+}
+#history .line-down {
+  background-color: #d5d5d5;
+  width: 2px;
+  height: 90%;
+  position: absolute;
+  left: 50%;
+  top: 100px;
+}
+
+#history .history-heading {
+  text-align: center;
+}
+#history .history-heading h2 {
+  color: #222;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: solid 2px #ffc401;
+  display: inline;
+}
+
+#history .wrapper {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 60%;
+  margin-top: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #754949;
+}
+#history .wrapper .icon {
+  position: absolute;
+  left: 128%;
+  top: 20%;
+}
+#history .wrapper-right .icon {
+  position: absolute;
+  left: -39%;
+  top: 30%;
+}
+#history .wrapper-right .cursor {
+  position: absolute;
+  left: -3%;
+  top: 30%;
+}
+#history .wrapper .cursor {
+  position: absolute;
+  left: 96%;
+  top: 24%;
+}
+
+#history .wrapper-right {
+  position: relative;
+  margin-left: 60%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #754949;
+}
+#history .left1 .left2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #754949;
+}
+#history .right1 .right2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f5f5f5;
+}
+#history .cursor {
+  width: 25px;
+  height: 25px;
+  background-color: #812d2d;
+  position: relative;
+  left: 97%;
+  top: 30%;
+  transform: rotate(45deg);
+}
+#history .icon {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: solid 2px black;
+  border-radius: 100%;
+  position: relative;
+}
+
+#history .metai {
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  background-color: #ffc401;
+  position: relative;
+  margin-left: 46.5%;
+  margin-top: 3%;
+  padding-top: 5px;
+  font-size: medium;
+  font-weight: 800;
+}
+/* CONTACS PRADZIA */
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+#contacts {
+  background-image: url("../css/img/rock600x400.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+
+  width: 100%;
+  padding: 80px 0 100px;
+  background-position: center;
+  box-shadow: 0 0 100vw 100vw inset rgb(0 0 0 / 60%);
+}
+
+#contacts h2 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 84px;
+}
+
+#contacts h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -19px;
+  transform: translateX(-50%);
+  width: 201px;
+  height: 2px;
+  background: #ffc401;
+}
+
+#contacts h3 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+#contacts .contact-row {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+#contacts .contact-form fieldset {
+  width: 100%;
+  border: none;
+  padding: 0 15px;
+  margin: 0 0 19px;
+}
+
+#contacts .contact-form fieldset input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #383738;
+  font-size: 15px;
+  padding: 16px 12px;
+  color: #fff;
+}
+
+#contacts .contact-form fieldset textarea {
+  width: 100%;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #383738;
+  font-size: 15px;
+  color: #fff;
+  padding: 6px 12px;
+}
+
+#contacts .contact-form fieldset input:focus {
+  border: 1px solid #fff;
+  outline: none;
+  box-shadow: 0 0 15 0 rgba(255, 196, 1, 5);
+}
+
+#contacts .button-row {
+  justify-content: center;
+  margin-top: 17px;
+}
+
+#google-maps iframe{
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+/* CONTACS PABAIGA */
+#contact-info{
+    padding: 80px 0 100px;
+}
+#contact-info .info-list{
+    margin-top: 5%;
+    display: flex;
+
+}
+#contact-info .info-list .info-box{
+    width: 25%;
     text-align: center;
 }
-#history .history-heading h2{
-      
+#contact-info .info-list .info-box .icon{
+    font-size: 60px;
+
+}
+#contact-info .info-list .info-box .icon .fa{
+    color:#ffc401 ;
+    
+}
+#contact-info .info-list .info-box .h3{
+   text-transform: uppercase;
+   font-size: 18px;
+}
+#contact-info .info-box a{
+    text-decoration: none;
+    color: #ffc401;
+    font-weight: bold;
+}
+#contact-info .info-box a:hover{
+    color: black;
+}
+#contact-info .info-box a:visited{
+    color: purple;
+}
+#contact-info .info-box a:active{
+    color: rgb(128, 0, 0);
+}
+#contact-info .top-heading{
+text-align: center;
+    color: #222;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#contact-info .bottom-heading{
+text-align: center;
     color: #222;
   font-size: 40px;
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: solid 2px #ffc401;
-   display: inline;
+  display: inline;
 }
-
-    #history .line-down{
-        background-color: #d5d5d5;
-        width: 2px;
-        height: 100%;
-        position: absolute;
-        left: 50%;
-        top: 100px;  
-    }
-#history .wrapper{
-    position: relative;
-    margin-left: 10%;
-    margin-right: 60%;
-    margin-top: 5%;
-}
-#history .left1{
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #f5f5f5;
-    
-}
-#history .cursor{
-    width: 25px;
-    height: 25px;
-    background-color: #812d2d;
-    position: relative;
-    left: 97%;
-    top: 30%;
-    transform: rotate(45deg);
+#subscribe{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #262626;
     
 
-    
-}
-#history .icon{
-    background-color: white;
-    width:40px;
-    height: 40px;
-    border: solid 2px black;
-    border-radius: 100%;
-    position: relative;
    
 }
-
-
-#history .metai{
-    width: 70px;
-    height: 30px;
-    background-color: #ffc401;
-    position: relative;
-    margin-left: 45%;
-    margin-top: 3%;
-
+#subscribe .header{
+    color: white;
+    text-align: center;
+}
+#subscribe .conclusion{
+   
+}
+#subscribe .conclusion .text{
+    width: 30%;
+    height: 35px;
+    margin-left: 30%;
 }
