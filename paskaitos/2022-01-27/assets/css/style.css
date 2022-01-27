@@ -1,0 +1,112 @@
+body{
+    background-color: rosybrown;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.form-container{
+    width: 100%;
+    max-width: 768px;
+    margin: 70px auto 0;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 10px 15px 20px 0 rgb(0,0,0,.4);
+    height: 480px;
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+.form-container .left,
+.form-container .right {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 40px 50px;
+    text-align: center;
+}
+.form-container .right {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: tomato;
+}
+.form-container .right h2, .form-container .right p{
+width: 100%;
+color: #ffffff;
+}
+.form-container .right p{
+   font-weight: 100;
+}
+.form-container h2{
+    font-size: 37px;
+    font-weight: 900;
+    margin: 0;
+
+}
+.form-container .socials {
+ margin: 49px 0;
+}
+.form-container ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 15%;
+}
+.form-container .socials > ul > li > a {
+    display: block;
+    font-size: 25px;
+    color: rgb(45, 125, 201);
+    border: 1px solid rgb(45, 125, 201);
+    border-radius: 100%;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+}
+.form-container .socials > ul > li > a:hover{
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    border-color: darkblue;
+}
+.form-container .form-label{
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 7px;
+}
+.form-container input.input{
+    border: none;
+    width: 100%;
+    padding:12px 14px ;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+.form-container .forgot-password{
+    margin-top: 6px;
+}
+.form-container .forgot-password a{
+    text-decoration: none;
+    color: #333;
+}
+.form-container .forgot-password a:hover{
+    text-decoration: underline;
+}
+.form-container .submit{
+    margin-top: 15px;
+    
+}
+.form-container .submit .button{
+    background-color: red;
+    border: none;
+    width: 140px;
+    line-height: 40px;
+   border-radius: 20px;
+   font-size: 16px;
+   transition: background 0.5s ease-in-out;
+   cursor: pointer;
+
+}
+.form-container .submit .button:hover {
+    background-color: #6d6564;
+}
