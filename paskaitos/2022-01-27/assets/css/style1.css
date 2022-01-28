@@ -1,0 +1,46 @@
+body{
+    background-color: royalblue;
+    height: 100vh;
+}
+.flex-box{
+    background-color: seagreen;
+    display:flex;
+    align-items: flex-end;
+    
+    
+    width: 100%;
+    
+}
+.flex-box .vienas{
+    width: 30%;
+    height: 200px;
+    border: solid 2px ;
+   
+    
+}
+.flex-box  .fab{
+    width: 30%;
+    height: 200px;
+   
+   
+    
+}
+.flex-box .vienas img{
+    width: 80%;
+    height: 200px;
+    
+    
+}
+.flex-box .du{
+    width: 20%;
+    height: 100px;
+    border: solid 2px ;
+    background-color: sienna;
+    
+}
+.flex-box .trys{
+    width: 100%;
+    height: 200px;
+    border: solid 2px ;
+    background-color: skyblue;
+}
