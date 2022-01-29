@@ -1,0 +1,42 @@
+#skills {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://dsathemes.com/html/xlander/pattern/img/parallax_bg/skills.jpg");
+}
+.flex-container {
+  display: flex;
+  color: white;
+}
+#skills .heading {
+  text-align: center;
+}
+#skills h2 {
+  color: white;
+  margin-top: 10px;
+}
+
+#skills .column {
+  display: flex;
+  margin-top: 200px;
+  text-align: center;
+}
+#skills .design,
+#skills .wordpress,
+#skills .jquery,
+#skills .html-css {
+  border: solid 10px #fec205;
+  color: #a8a8a8;
+  font-weight: 500;
+  font-size: 40px;
+  margin-right: 100px;
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+}
+#skills .text {
+  color: white;
+  font-weight: 500;
+  font-size: 26px;
+}

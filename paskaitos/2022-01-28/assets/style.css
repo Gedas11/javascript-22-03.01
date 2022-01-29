@@ -8,30 +8,33 @@ body {
   margin: 70px auto 0;
   display: flex;
   justify-content: center;
-  height: 480px;
+  align-items: center;
+  height: 600px;
   background-color: #ffffff;
   font-family: sans-serif;
 }
 .form-container h1 {
+   display: flex;
   color: blue;
-  justify-content: center;
+  margin-bottom: 50px;
   font-weight: 100;
-  margin-right: 60%;
+  
 }
 .form-container input.input {
   border: none;
   width: 40%;
   padding: 12px 14px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 18px;
   background-color: rgba(163, 153, 199, 0.527);
   border-radius: 5px;
 }
 .form-container .address {
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   border: none;
   border-radius: 5px;
   width: 87%;
+  height: 40px;
   padding: 12px 14px;
   font-size: 18px;
   background-color: rgba(163, 153, 199, 0.712);
@@ -40,19 +43,17 @@ body {
   border-radius: 5px;
   border: none;
   width: 92%;
-  height: 50px;
+  height: 90px;
   font-size: 18px;
   resize: none;
   background-color: rgb(163, 153, 199);
 }
 .login-form {
-  margin-top: 80px;
-
-  display: block;
-  text-align: center;
+    text-align: center;
   width: 500px;
 }
 .form-container .submit .button {
+    margin-top: 20px;
   background-color: blue;
   color: white;
   border: none;
@@ -63,7 +64,10 @@ body {
   cursor: pointer;
 }
 .form-container p {
+    display: flex;
   color: darkseagreen;
   margin-right: 60%;
 }
-
+.form-container ::placeholder{
+    color: blue;
+}
