@@ -1,0 +1,75 @@
+#team .header{
+    margin-top: 10px;
+    text-align: center;
+}
+#team h3{
+    color: #222;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#team h2{
+    color: #222;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffc400;
+    display: inline-block;
+    
+}
+.flex-containerteam {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+#team .collumn {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+#team .socials li{
+   
+  display: inline;
+  margin-left: 20px;
+}
+#team .socials a{
+   transition: 0.5s ease-in-out;
+    
+  }
+  #team .socials a:hover{
+  color: cornflowerblue;
+     
+   }
+#team .photo {
+  width: 260px;
+  height: 260px;
+}
+#team .collumn p {
+    color: #757575;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+  color: black;
+}
+#team .collumn h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    margin: 20px 0px 10px 0;
+    text-align: center;
+  color: black;
+}
+#team .collumn h4 {
+    font-size: 14px;
+    color: #ffc400;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
