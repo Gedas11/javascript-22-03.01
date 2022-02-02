@@ -1,0 +1,20 @@
+body{
+    background-color: lavender;
+}
+#skaiciai {
+    width: 150px;
+    height: 150px;
+    color: black;
+    background-color: cadetblue;
+}
+.suma {
+    width: 150px;
+    height: 150px;
+    background-color: blanchedalmond;
+}
+.atsitiktiniai {
+    color: crimson;
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+}
