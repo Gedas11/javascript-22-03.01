@@ -65,28 +65,37 @@ document.getElementById('vienuolikta').innerHTML = `<h${skaicius}>${skaicius}</h
 //   document.getElementById('vienuolikta').innerHTML =  z
 
 
-let pirmas = randomSkaicius(0, 100);
-let antras = randomSkaicius(0, 100);
-let trecias = randomSkaicius(0, 100);
+// let pirmas = randomSkaicius(0, 100);
+// let antras = randomSkaicius(0, 100);
+// let trecias = randomSkaicius(0, 100);
 
-let arimetrinisVidurkis = (pirmas + antras + trecias)/3;
+// let arimetrinisVidurkis = (pirmas + antras + trecias)/3;
 
-let kiekis = 3;
-let suma = 0
+// let kiekis = 3;
+// let suma = 0
 
-function tinkamas (x){
-    if(x < 10 || x > 90){
-        kiekis--; 
-    } else {
-        suma += x;
-    }
-}
-tinkamas(pirmas)
-tinkamas(antras)
-tinkamas(trecias)
+// function tinkamas (x){
+//     if(x < 10 || x > 90){
+//         kiekis--; 
+//     } else {
+//         suma += x;
+//     }
+// }
+// tinkamas(pirmas)
+// tinkamas(antras)
+// tinkamas(trecias)
 
-if(kiekis == 0){
+// if(kiekis == 0){
 
-}else{
-    let vidurkis = suma/kiekis;
-}
+// }else{
+//     let vidurkis = suma/kiekis;
+// }
+
+// let keyword = document.getElementsById('input')
+// let copy = document.getElementsById('copyPaste')
+
+// window.addEventListener('keydown', ()=> {
+//     copy.textcontent = '${keyword.value}'
+// })
+
+

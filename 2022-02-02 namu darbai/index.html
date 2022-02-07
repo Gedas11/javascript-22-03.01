@@ -10,6 +10,45 @@
 <body>
     <div id="desimta"></div>
     <div id="vienuolikta"></div>
+    <input type="text" id="input">
+    <div id="rezultatas"></div>
+    <script>
+        const input = document.getElementById('input')
+        input.addEventListener('keyup', event =>{
+            let tekstas = '';
+
+
+            if(input.value.lenght >= 25)
+         input.value.substring(0,25)
+            document.getElementById('rezultatas').innerText = input.value
+        })
+    </script>
+    // var x = 21 kintamasis
+    document.getElementById(x) prasome javascript isvesti kintamaji
+   kintamasis reikalingas jog pasikeistu kodas kuriam nurodytas, jeigu reiktu pataisyt viena koda pasitaisys
+   
+   kintamieji: 
+   var x = 34.34; var x = 'gediminas' var x = true false
+   document.getElementsById(x);
+   
+   var vardas = 'gediminas'
+   var pavarde = 'galinis'
+   document.getElementsById('sveiki mano vardas yra:' + 'vardas' + 'pavarde');
+   var pirmas = 'bmw'
+   var antras = 'audi' 
+   var trecias = 'Ford'
+   document.write(pirmas + antras + trecias )
+   
+   funksija kaip mazas skriptukas panaudojamas scripte
+   function lentele(){
+     alert('danger danger')
+   }
+   lentele()
+   
+    
+    <form >
+        <input type="button" id="nespausk cia" onclick="lentele()" >
+    </form>
     <script type="text/javascript" src="assets/css/js/index.js"></script>
 </body>
 </html>
