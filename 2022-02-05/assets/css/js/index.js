@@ -194,6 +194,20 @@ function randomSkaicius(min, max) {
 //     console.log('bilietas nelaimingas')
 // }
 
+//----------- 6 uzduotis ----------
+
+// let metai = randomSkaicius(2000, 2100);
+// if(metai % 4 == 0 && metai % 100 != 0){
+//     console.log('metai kelemieji');
+//     }else {
+//     console.log('metai nekelemieji')
+// }
+    
+
+
+
+
+
 
 
 
